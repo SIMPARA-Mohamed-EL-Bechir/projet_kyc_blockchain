@@ -1,5 +1,3 @@
-Voici un fichier `README.md` complet, professionnel et structuré, prêt à être copié-collé pour votre dépôt GitHub. Il met en valeur le travail réalisé et explique clairement comment installer et tester le projet.
-
 ````markdown
 # 🆔 Système de Certification d'Identité Décentralisé (KYC)
 
