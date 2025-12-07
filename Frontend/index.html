@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 9 - Certification d'Identité</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Système de Certification d'Identité (KYC)</h1>
+    <button id="btnConnect">Connecter MetaMask</button>
+    <p>Mon adresse: <span id="monAdresse">Non connecté</span></p>
+    <p>Statut Autorité: <span id="statutAutorite">...</span></p>
+
+    <hr>
+
+    <div id="zoneAdmin">
+        <h2>Panneau Administrateur (Autorité)</h2>
+        
+        <div class="form-group">
+            <h3>Certifier un utilisateur</h3>
+            <label for="adminCertifierAdresse">Adresse à certifier:</label>
+            <input type="text" id="adminCertifierAdresse" placeholder="0x...">
+            <label for="adminCertifierIdentite">Identité (Nom):</label>
+            <input type="text" id="adminCertifierIdentite" placeholder="Jean Dupont">
+            <button id="btnCertifier">Certifier</button>
+        </div>
+
+        <div class="form-group">
+            <h3>Révoquer un utilisateur</h3>
+            <label for="adminRevoquerAdresse">Adresse à révoquer:</label>
+            <input type="text" id="adminRevoquerAdresse" placeholder="0x...">
+            <button id="btnRevoquer">Révoquer</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="zonePublique">
+        <h2>Vérification Publique</h2>
+        <label for="publicVerifierAdresse">Adresse à vérifier:</label>
+        <input type="text" id="publicVerifierAdresse" placeholder="0x...">
+        <button id="btnVerifier">Vérifier le statut</button>
+        <p>Résultat: <span id="resultatVerification">...</span></p>
+    </div>
+
+    <hr>
+    
+    <div class="logs">
+        <h3>Logs</h3>
+        <pre id="logs"></pre>
+    </div>
+
+    <script src="ethers.umd.min.js"></script>
+    
+    <script src="app.js"></script>
+</body>
+</html>
