@@ -1,4 +1,3 @@
-````markdown
 # 🆔 Système de Certification d'Identité Décentralisé (KYC)
 
 > **Projet #9** - Génie Informatique et Digitalisation (EMI 2025/2026)  
@@ -7,7 +6,6 @@
 
 Ce projet est une **Application Décentralisée (DApp)** permettant à une autorité désignée de certifier l'identité des utilisateurs et de lier cette identité à leurs adresses blockchain de manière sécurisée, transparente et vérifiable sur le réseau Ethereum (Sepolia).
 
----
 
 ## 📋 Table des Matières
 - [Description](#-description)
@@ -18,7 +16,6 @@ Ce projet est une **Application Décentralisée (DApp)** permettant à une autor
 - [Comment Utiliser](#-comment-utiliser)
 - [Structure du Projet](#-structure-du-projet)
 
----
 
 ## 📝 Description
 
@@ -27,7 +24,6 @@ Dans les systèmes traditionnels, le processus de KYC (*Know Your Customer*) est
 2.  Cette certification est enregistrée de manière **immuable** sur la blockchain.
 3.  N'importe quel service tiers peut **vérifier publiquement** et gratuitement si une adresse est certifiée.
 
----
 
 ## ✨ Fonctionnalités
 
@@ -41,7 +37,6 @@ Dans les systèmes traditionnels, le processus de KYC (*Know Your Customer*) est
 * **Vérification de statut :** N'importe qui peut entrer une adresse Ethereum pour vérifier si elle possède une certification valide.
 * **Transparence :** Accès direct à l'état de la blockchain sans intermédiaire.
 
----
 
 ## 🏗 Architecture Technique
 
@@ -50,7 +45,6 @@ Dans les systèmes traditionnels, le processus de KYC (*Know Your Customer*) est
 * **Interaction Web3 :** Librairie **Ethers.js** (v5.2) pour communiquer avec la blockchain.
 * **Portefeuille :** **MetaMask** pour la gestion des comptes et la signature des transactions.
 
----
 
 ## 🛠 Prérequis
 
@@ -60,7 +54,6 @@ Avant de lancer le projet, assurez-vous d'avoir :
 3.  Des **Sepolia ETH** (fonds de test) pour payer les frais de gaz (disponibles via un Faucet).
 4.  Un éditeur de code (VS Code recommandé) avec l'extension **Live Server**.
 
----
 
 ## 🚀 Installation et Configuration
 
